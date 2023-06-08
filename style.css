@@ -1,0 +1,77 @@
+body {
+    background-color: #36393f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #2f3136;
+}
+
+form {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form input {
+    flex-grow: 1;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    border: none;
+    border-radius: 4px;
+    background-color: #40444b;
+    color: #ffffff;
+}
+
+form button {
+    border: none;
+    border-radius: 4px;
+    background-color: #7289da;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #677bc4;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: 1px solid #7289da;
+    border-radius: 4px;
+    background-color: #40444b;
+}
+
+.task.done label {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task input {
+    margin-right: 1em;
+}
+
+.task button {
+    margin-left: auto;
+    background: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.task button:hover {
+    color: #7289da;
+}
