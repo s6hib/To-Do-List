@@ -16,8 +16,6 @@ This is a simple to-do list application built with HTML, CSS, and JavaScript. Th
 git clone https://github.com/s6hib/To-Do-List.git
 ```
 
-2. Open `index.html` in your browser to start the application.
-
 ## Features
 
 1. Enter your task in the input field and click on "Add Task" button to add a new task.
