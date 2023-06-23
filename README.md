@@ -2,7 +2,7 @@
 
 A simple, yet efficient to-do list application built with HTML, CSS, and JavaScript.
 
-https://sahibs-todolist.netlify.app/
+https://to-do-app.s6hib.repl.co 
 
 ## Features
 
